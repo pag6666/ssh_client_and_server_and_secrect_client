@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34601.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secren_Client", "Secren_Client\Secren_Client.csproj", "{BEAA740C-7321-44F5-A2B8-423A49D4559C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEAA740C-7321-44F5-A2B8-423A49D4559C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEAA740C-7321-44F5-A2B8-423A49D4559C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEAA740C-7321-44F5-A2B8-423A49D4559C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEAA740C-7321-44F5-A2B8-423A49D4559C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {786203FC-7A5A-4AFE-B7D5-30EF613F5803}
+	EndGlobalSection
+EndGlobal

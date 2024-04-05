@@ -1,0 +1,7 @@
+C:\Users\Pargev\source\repos\Client_NS\Client_NS\bin\Debug\Client_NS.exe.config
+C:\Users\Pargev\source\repos\Client_NS\Client_NS\bin\Debug\Client_NS.exe
+C:\Users\Pargev\source\repos\Client_NS\Client_NS\bin\Debug\Client_NS.pdb
+C:\Users\Pargev\source\repos\Client_NS\Client_NS\obj\Debug\Client_NS.csproj.AssemblyReference.cache
+C:\Users\Pargev\source\repos\Client_NS\Client_NS\obj\Debug\Client_NS.csproj.CoreCompileInputs.cache
+C:\Users\Pargev\source\repos\Client_NS\Client_NS\obj\Debug\Client_NS.exe
+C:\Users\Pargev\source\repos\Client_NS\Client_NS\obj\Debug\Client_NS.pdb

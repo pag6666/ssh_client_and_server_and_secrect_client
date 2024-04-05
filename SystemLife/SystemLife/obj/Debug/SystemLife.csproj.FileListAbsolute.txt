@@ -1,0 +1,7 @@
+C:\Users\Pargev\source\repos\SystemLife\SystemLife\bin\Debug\SystemLife.exe.config
+C:\Users\Pargev\source\repos\SystemLife\SystemLife\bin\Debug\SystemLife.exe
+C:\Users\Pargev\source\repos\SystemLife\SystemLife\bin\Debug\SystemLife.pdb
+C:\Users\Pargev\source\repos\SystemLife\SystemLife\obj\Debug\SystemLife.csproj.AssemblyReference.cache
+C:\Users\Pargev\source\repos\SystemLife\SystemLife\obj\Debug\SystemLife.csproj.CoreCompileInputs.cache
+C:\Users\Pargev\source\repos\SystemLife\SystemLife\obj\Debug\SystemLife.exe
+C:\Users\Pargev\source\repos\SystemLife\SystemLife\obj\Debug\SystemLife.pdb
