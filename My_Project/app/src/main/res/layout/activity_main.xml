@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#333F50"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:elevation="100dp"
+        android:background="@drawable/background_shape"
+        android:layout_margin="40dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/animation"
+            app:lottie_rawRes="@raw/animation"
+            app:lottie_loop="true"
+
+            >
+        </com.airbnb.lottie.LottieAnimationView>
+        <LinearLayout
+            android:paddingLeft="5dp" android:paddingRight="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:elevation="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/background_edit_text"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Host: ">
+                </TextView>
+                <EditText
+
+                    android:phoneNumber="true"
+                    android:id="@+id/host_edit_1"
+                    android:textAlignment="center"
+                    android:hint="127"
+                    android:maxLines="1"
+                    android:maxLength="3"
+                    android:textColor="@color/white"
+                    android:background="@drawable/background_edit_text"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                   >
+                    </EditText>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text=".">
+                </TextView>
+                <EditText
+                    android:phoneNumber="true"
+                    android:id="@+id/host_edit_2"
+                    android:textAlignment="center"
+                    android:hint="0"
+                    android:maxLines="1"
+                    android:maxLength="3"
+                    android:textColor="@color/white"
+                    android:background="@drawable/background_edit_text"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    >
+                </EditText>
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=".">
+                </TextView>
+                <EditText
+                    android:phoneNumber="true"
+                    android:id="@+id/host_edit_3"
+                    android:textAlignment="center"
+                    android:hint="0"
+                    android:maxLines="1"
+                    android:maxLength="3"
+                    android:textColor="@color/white"
+                    android:background="@drawable/background_edit_text"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    >
+                </EditText>
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=".">
+
+                </TextView>
+                <EditText
+                    android:phoneNumber="true"
+                    android:id="@+id/host_edit_4"
+                    android:textAlignment="center"
+                    android:hint="1"
+                    android:maxLines="1"
+                    android:maxLength="3"
+                    android:textColor="@color/white"
+                    android:background="@drawable/background_edit_text"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    >
+                </EditText>
+
+            </LinearLayout>
+            <LinearLayout
+                android:elevation="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/background_edit_text"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User: ">
+                </TextView>
+                <EditText
+                    android:id="@+id/user_edit"
+                    android:hint="root"
+                    android:maxLines="1"
+                    android:maxLength="20"
+                    android:textColor="@color/white"
+                    android:background="@drawable/background_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:elevation="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/background_edit_text"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Password: ">
+                </TextView>
+                <EditText
+                    android:id="@+id/password_edit"
+                    android:password="true"
+                    android:hint="******"
+                    android:maxLines="1"
+                    android:maxLength="20"
+                    android:textColor="@color/white"
+                    android:background="@drawable/background_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </EditText>
+            </LinearLayout>
+            <Button
+                android:onClick="button_connection"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Connect"
+                android:elevation="10dp"
+                android:backgroundTint="#65A849">
+
+            </Button>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

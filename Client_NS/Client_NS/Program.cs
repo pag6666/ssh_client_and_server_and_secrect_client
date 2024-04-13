@@ -14,7 +14,7 @@ namespace Client_NS
             reconnected:
             try
             {
-                TcpClient tempclient = new TcpClient("127.0.0.1", 25565);
+                TcpClient tempclient = new TcpClient("185.228.232.214", 25565);
                 ClientObject client = new ClientObject(tempclient);
                 client.Start();
                 if (client.IsConnected() == false)

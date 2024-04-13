@@ -114,7 +114,7 @@ namespace Secren_Client
                                     writeText = client.RunCommand(readText).Result;
                                     if (writeText.Length == 0) 
                                     {
-                                        writeText = "null";
+                                        writeText = "size of 0";
                                     }
                                     if (writeText == null) 
                                     {
