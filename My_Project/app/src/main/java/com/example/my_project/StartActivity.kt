@@ -25,8 +25,8 @@ class StartActivity:AppCompatActivity() {
         _user = intent.getStringExtra("user").toString()
         _password = intent.getStringExtra("password").toString()
         _array_command = ArrayList<String>()
-        _array_command.add("get_users");
-        _array_command.add("get_my_index")
+        /*_array_command.add("get_users");
+        _array_command.add("get_my_index")*/
         _array_command.add("info_server")
         val list:ListView = findViewById(R.id.list)
         list.adapter = ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,_array_command)
@@ -34,8 +34,6 @@ class StartActivity:AppCompatActivity() {
             Toast.makeText(this,_array_command[position],Toast.LENGTH_SHORT).show()
             if(_array_command[position] == "info_server")
             {
-
-
                     val starAct = Intent(this, InfoAcivity::class.java);
                     starAct.putExtra("host", _host)
                     starAct.putExtra("user", _user)

@@ -10,7 +10,7 @@ namespace SystemLife
 {
     class Program
     {
-        static Dictionary<int,ItemElement> users;
+        static Dictionary<int, ItemElement> users;
         static void StartThreadClient(object obj) 
         {
             //add user

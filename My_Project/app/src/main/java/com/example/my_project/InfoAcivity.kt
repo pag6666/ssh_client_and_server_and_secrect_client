@@ -174,55 +174,7 @@ lateinit var s:Socket;
             //
             text_result.clear()
             //
-            /*Log.d("static_information","SF: read: $text_result write: $text_send check_connect: $check_connect")
-            //get access connect
-            text_send = "get_users"
-            text_result.clear()
-            check_connect = Write(write, text_send)
-            check_connect = Read(read, text_result)
-            Log.d("static_information","SF: read: $text_result write: $text_send check_connect: $check_connect")
-            // ___ ___ __ __
-            val array:ArrayList<String> = text_result.split(',') as ArrayList<String>
-            var select_user_connect = array[array.size-1]
-            Log.d("select_user_connect",select_user_connect)
-            //
-            text_send = "connect"
-            text_result.clear()
-            check_connect = Write(write, text_send)
-            check_connect = Read(read, text_result)
-            Log.d("static_information","SF: read: $text_result write: $text_send check_connect: $check_connect")
-            //setup me
-            text_send = select_user_connect
-            text_result.clear()
-            check_connect = Write(write, text_send)
-            check_connect = Read(read, text_result)
-            Log.d("static_information","SF: read: $text_result write: $text_send check_connect: $check_connect")
 
-            //get information server
-            text_send ="host"
-            text_result.clear()
-            check_connect = Write(write, text_send)
-            check_connect = Read(read, text_result)
-            Log.d("static_information","SF: read: $text_result write: $text_send check_connect: $check_connect")
-
-            text_send ="user"
-            text_result.clear()
-            check_connect = Write(write, text_send)
-            check_connect = Read(read, text_result)
-            Log.d("static_information","SF: read: $text_result write: $text_send check_connect: $check_connect")
-
-            text_send ="password"
-            text_result.clear()
-            check_connect = Write(write, text_send)
-            check_connect = Read(read, text_result)
-            Log.d("static_information","SF: read: $text_result write: $text_send check_connect: $check_connect")
-
-            text_send ="1"
-            text_result.clear()
-            check_connect = Write(write, text_send)
-            check_connect = Read(read, text_result)
-            Log.d("static_information","SF: read: $text_result write: $text_send check_connect: $check_connect")
-*/
             s.close()
                 runOnUiThread({
                     list.adapter = ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,array_data)

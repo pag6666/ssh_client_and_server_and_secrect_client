@@ -51,6 +51,7 @@ namespace Secren_Client
             {
                 if (_stream.CanWrite)
                 {
+                    //read data 
                     byte[] buffer = new byte[max_read_pack];
                     int size = _stream.Read(buffer, 0, buffer.Length);
                     answer = Encoding.UTF8.GetString(buffer, 0, size);
@@ -67,6 +68,7 @@ namespace Secren_Client
         public void Start()
         {
             bool checkRequest = true;
+            //call server
             while (checkRequest)
             {
                 string readText = "";
